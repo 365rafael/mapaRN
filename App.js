@@ -61,7 +61,7 @@ export default class App extends Component {
               <MapViewDirections
                 origin={this.state.region}
                 destination={this.state.destLocation}
-                apikey="AIzaSyBpRq15gH_P-KTh1bj3vhiAn-POxjH6K6I"
+                apikey=""
                 strokeWidth={5}
                 strokeColor="#000"
                 onReady={result => {
